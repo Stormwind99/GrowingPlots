@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModSyncNinjaData>
+  <ID>4b4a9946-4222-4b3b-8bfc-def1f989e153</ID>
+  <ModName>Growing Plots</ModName>
+  <Version>2.0</Version>
+  <SaveBreaking>False</SaveBreaking>
+  <Host name="Github">
+    <Owner>Proximity_Micro</Owner>
+    <Project>GrowingPlots</Project>
+    <AboutDir>About</AboutDir>
+    <DownloadFrom>ModSyncReleases</DownloadFrom>
+    <Branch>master</Branch>
+  </Host>
+</ModSyncNinjaData>
