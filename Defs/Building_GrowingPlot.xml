@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+<Defs>
 
 	<ThingDef ParentName="BuildingBase">
 		<defName>GrowingPlot</defName>
@@ -38,7 +38,7 @@
 		</stuffCategories>
 		<fertility>1</fertility>
 		<building>
-			<defaultPlantToGrow>PlantPotato</defaultPlantToGrow> 
+			<defaultPlantToGrow>Plant_Potato</defaultPlantToGrow> 
 			<sowTag>Hydroponic</sowTag>
 		</building>
 		<tickerType>Rare</tickerType>
@@ -79,9 +79,9 @@
 		</statBases>
 		<size>(3,3)</size>
 		<costStuffCount>100</costStuffCount>
-		<CostList>
+		<costList>
 			<Neutroamine>10</Neutroamine>
-		</CostList>
+		</costList>
 		<stuffCategories>
 			<li>Metallic</li>
 			<li>Woody</li>
@@ -89,7 +89,7 @@
 		</stuffCategories>
 		<fertility>1.4</fertility>
 		<building>
-			<defaultPlantToGrow>PlantPotato</defaultPlantToGrow>
+			<defaultPlantToGrow>Plant_Potato</defaultPlantToGrow>
 			<sowTag>Hydroponic</sowTag>
 		</building>
 		<tickerType>Rare</tickerType>
@@ -101,4 +101,4 @@
 		<designationCategory>Production</designationCategory>
 	</ThingDef>
 	
-</ThingDefs>
+</Defs>

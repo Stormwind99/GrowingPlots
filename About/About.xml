@@ -3,6 +3,6 @@
 	<name>Growing Plots</name>
 	<author>Proximity_Microwave</author>
 	<url></url>
-	<targetVersion>0.17.0</targetVersion>
+	<targetVersion>1.0.0</targetVersion>
 	<description>Allows growing crops on a small plot of soil.</description>
 </ModMetaData>
