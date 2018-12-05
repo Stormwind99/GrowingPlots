@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="BuildingBase">
+		<defName>GrowingPlotLinkable</defName>
+		<label>growing plot (linkable)</label>
+		<description>Grows plants in an dedicated patch of soil contained in a raised growing bed.</description>
+		<thingClass>Building_PlantGrower</thingClass>
+		<category>Building</category>
+		<graphicData>
+			<texPath>Things/Building/Linked/GrowingPlotLinkable_sheet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<linkType>Basic</linkType>
+			<linkFlags>
+				<li>Custom2</li>
+			</linkFlags>
+		</graphicData>
+		<altitudeLayer>FloorEmplacement</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>60</pathCost>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0.30</fillPercent>
+		<statBases>
+			<WorkToBuild>312</WorkToBuild>
+			<Mass>2.5</Mass>
+			<MaxHitPoints>20</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<Cleanliness>-1</Cleanliness>
+			<Beauty>-1</Beauty>
+		</statBases>
+		<size>(1,1)</size>
+		<neverMultiSelect>true</neverMultiSelect>
+		<costStuffCount>11</costStuffCount>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Woody</li>
+			<li>Stony</li>
+		</stuffCategories>
+		<rotatable>false</rotatable>
+		<placingDraggableDimensions>2</placingDraggableDimensions>
+		<fertility>1</fertility>
+		<building>
+			<defaultPlantToGrow>Plant_Potato</defaultPlantToGrow> 
+			<sowTag>Hydroponic</sowTag>
+			<blueprintGraphicData>
+				<texPath>Things/Building/Linked/GrowingPlotLinkable_sheet</texPath>
+			</blueprintGraphicData>
+		</building>
+		<uiIconPath>Things/Building/Linked/GrowingPlotLinkable_icon</uiIconPath>
+		<tickerType>Rare</tickerType>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+		</comps>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<designationCategory>Production</designationCategory>
+	</ThingDef>
+	
+	<ThingDef ParentName="BuildingBase">
+		<defName>RichGrowingPlotLinkable</defName>
+		<label>rich growing plot (linkable)</label>
+		<description>Grows plants in an dedicated patch of rich soil contained in a raised growing bed.</description>
+		<thingClass>Building_PlantGrower</thingClass>
+		<category>Building</category>
+		<graphicData>
+			<texPath>Things/Building/Linked/RichGrowingPlotLinkable_sheet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<linkType>Basic</linkType>
+			<linkFlags>
+				<li>Custom2</li>
+			</linkFlags>
+		</graphicData>
+		<altitudeLayer>FloorEmplacement</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>60</pathCost>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0.30</fillPercent>
+		<statBases>
+			<WorkToBuild>312</WorkToBuild>
+			<Mass>2.5</Mass>
+			<MaxHitPoints>20</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<Cleanliness>-1</Cleanliness>
+			<Beauty>-1</Beauty>
+		</statBases>
+		<size>(1,1)</size>
+		<neverMultiSelect>true</neverMultiSelect>
+		<costStuffCount>11</costStuffCount>
+		<costList>
+			<Neutroamine>10</Neutroamine>
+		</costList>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Woody</li>
+			<li>Stony</li>
+		</stuffCategories>
+		<rotatable>false</rotatable>
+		<placingDraggableDimensions>2</placingDraggableDimensions>
+		<fertility>1.4</fertility>
+		<building>
+			<defaultPlantToGrow>Plant_Potato</defaultPlantToGrow> 
+			<sowTag>Hydroponic</sowTag>
+			<blueprintGraphicData>
+				<texPath>Things/Building/Linked/RichGrowingPlotLinkable_sheet</texPath>
+			</blueprintGraphicData>
+		</building>
+		<uiIconPath>Things/Building/Linked/RichGrowingPlotLinkable_icon</uiIconPath>
+		<tickerType>Rare</tickerType>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+		</comps>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<designationCategory>Production</designationCategory>
+	</ThingDef>
+	
+</Defs>

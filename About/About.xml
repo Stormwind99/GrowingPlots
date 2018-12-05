@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
 	<name>Growing Plots</name>
-	<author>Proximity_Microwave</author>
-	<url></url>
+	<author>Proximity_Microwave, Stormwind99</author>
+	<url>https://github.com/ProximityMicrowave/GrowingPlots</url>
 	<targetVersion>1.0.0</targetVersion>
 	<description>Allows growing crops on a small plot of soil contained in a raised growing bed.</description>
 </ModMetaData>
