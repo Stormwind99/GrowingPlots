@@ -86,7 +86,7 @@
 		<neverMultiSelect>true</neverMultiSelect>
 		<costStuffCount>11</costStuffCount>
 		<costList>
-			<Neutroamine>10</Neutroamine>
+			<Neutroamine>1</Neutroamine>
 		</costList>
 		<stuffCategories>
 			<li>Metallic</li>
